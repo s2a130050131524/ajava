@@ -6,3 +6,6 @@ Inside this method call the getWriter() method of the PrintWriter class. We can 
 If the record will get inserted in the table then output will show "record has been inserted"  otherwise "sorry! Failure".
 
 
+![nsql](https://cloud.githubusercontent.com/assets/16952537/13332623/72829dfe-dc5f-11e5-9ebc-5f02b3dce798.png)
+![n1](https://cloud.githubusercontent.com/assets/16952537/13332626/74534b38-dc5f-11e5-8a01-e3b6fe5ee663.png)
+![n2](https://cloud.githubusercontent.com/assets/16952537/13332630/76666680-dc5f-11e5-8d28-0ae769fd9fe9.png)
