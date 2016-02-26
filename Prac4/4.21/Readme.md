@@ -7,4 +7,7 @@ The values which we have entered in the Html form will be retrieved by the serve
 Inside this method call the getWriter() method of the PrintWriter class. We can insert the data in the database only and only if there is a connectivity between our database and the java program. To establish the connection between our database and the java program we firstly need to call the method forName() which is static in nature of the class Class. It takes one argument which tells about the database driver  we are going to use. Now use the static method getConnection() of the DriverManager class. This method takes three arguments and returns the Connection object. SQL statements are executed and  results are returned within the context of a connection. Now your connection has been established. Now use the method prepareStatement() of the Connection object which will return the PreparedStatement object and takes one a query which we want to fire as its input. The values which we have got from the html will be set in the database by using the setString() method of the PreparedStatement object.
 If the record will get inserted in the table then output will show "record has been inserted"  otherwise "sorry! Failure".
 
+![insert](https://cloud.githubusercontent.com/assets/16952537/13345855/c5aa9c52-dcbe-11e5-9569-717a54617d6f.png)
+![op](https://cloud.githubusercontent.com/assets/16952537/13345858/c7f38820-dcbe-11e5-9481-dfc2414c006d.png)
+![sql](https://cloud.githubusercontent.com/assets/16952537/13345860/c9b38eda-dcbe-11e5-98db-762b3683185b.png)
 
